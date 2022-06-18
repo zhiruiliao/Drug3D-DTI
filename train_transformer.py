@@ -29,7 +29,7 @@ max_smiles_len = 80
 
 p_encoder = protein_encoder.ConvGLUEncoder(d_model, kernel_size=7)
     
-drug_feat == 'GCN3D':
+drug_feat = 'GCN3D'
 d_encoder = drug_encoder.Drug3DEncoder(d_model, n_layers_2d=n_2d_layers, n_layers_3d=n_3d_layers)
 # drug_a, drug_s, drug_x, drug_mask, protein_embed, protein_mask, label
 train_drug_data = [
