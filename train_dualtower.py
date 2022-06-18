@@ -15,7 +15,7 @@ def pearson_r(y_true, y_pred):
     return up / down
 
 
-seed = int(sys.argv[2])
+seed = 123
 tf.random.set_seed(seed)
 fold_id = int(sys.argv[3])
 
